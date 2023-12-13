@@ -1,11 +1,80 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+
+    <style>
+      .contact-section {
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+      }
+
+      h1 {
+        text-align: center;
+      }
+
+      p {
+        text-align: center;
+      }
+
+      .contact-form {
+        display: flex;
+        flex-direction: column;
+      }
+
+      .input-group {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+      }
+
+      input,
+      textarea,
+      button {
+        width: 100%;
+        padding-inline: 10px;
+        padding-block: 10px;
+        margin-bottom: 10px;
+      }
+
+      button {
+        background-color: #007bff;
+        color: #fff;
+        border: none;
+        cursor: pointer;
+      }
+
+      @media screen and (max-width: 768px) {
+        .contact-section {
+          padding: 10px;
+        }
+
+        input,
+        textarea,
+        button {
+          margin-bottom: 5px;
+        }
+      }
+    </style>
+  </head>
+
+  <body>
     <h1>Hello World!</h1>
-</body>
+
+    <section class="contact-section">
+      <h1>Contact Us</h1>
+      <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+      <div class="contact-form">
+        <div class="input-group">
+          <input type="text" placeholder="Full Name" />
+          <input type="email" placeholder="Yourname@gmail.com" />
+        </div>
+        <textarea placeholder="Your Message"></textarea>
+        <button type="submit">Submit</button>
+      </div>
+    </section>
+  </body>
 </html>
