@@ -2,4 +2,4 @@ const handleTestimonial = (e) => {
     e.preventDefault();
     const data = new Date 
 }
-handleTesttimonial()
+handleTestimonial()
