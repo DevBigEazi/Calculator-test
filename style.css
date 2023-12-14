@@ -21,6 +21,10 @@ header {
   /* height: 100vh; */
 }
 
+.h1 {
+  margin-bottom: 20px;
+}
+
 .navbar {
   display: flex;
   margin-bottom: 20px;
@@ -95,8 +99,8 @@ header {
 }
 
 .container h1 {
-  padding-top: 10px;
-  margin-bottom: 20px;
+  padding-top: 20px;
+  padding-bottom: 20px;
   color: var(--gray-7, #3d5873);
   font-size: 28px;
   font-weight: 400;
