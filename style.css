@@ -23,6 +23,7 @@ header {
 
 .navbar {
   display: flex;
+  margin-bottom: 20px;
   width: 100%;
   padding-left: 70px;
   padding-right: 70px;
@@ -42,7 +43,7 @@ header {
   flex-direction: row;
   align-items: center;
   gap: 42px;
-  width: 100%;
+  width: 550px;
   height: 70px;
 }
 
@@ -165,4 +166,10 @@ header {
 
 .btn > button:hover {
   background: #3fc7e9;
+}
+
+footer {
+  position: fixed;
+  padding-bottom: 20px;
+  bottom: 0;
 }
