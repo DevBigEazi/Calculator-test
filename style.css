@@ -1,11 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: none;
+  list-style: none;
+  box-sizing: border-box;
+  overflow-x: hidden;
+}
 body {
   background: #eee;
+  /* height: 100vh; */
+  /* width: 100%; */
   display: flex;
   justify-content: center;
   flex-direction: column;
   align-items: center;
-  height: 100vh;
-  box-sizing: border-box;
+}
+
+header {
+  width: 100%;
+  /* height: 100vh; */
+}
+
+.navbar {
+  display: flex;
+  width: 100%;
+  padding-left: 70px;
+  padding-right: 70px;
+  justify-content: space-between;
+  align-items: center;
+  background: #2970ff;
+  color: #fff;
+}
+
+.navbar > h1 {
+  font-size: x-large;
+  padding-right: 60px;
+}
+
+.navbar > ul {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 42px;
+  width: 100%;
+  height: 70px;
+}
+
+.navbar ul > li {
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 20px;
+}
+
+.navbar > .navbtn {
+  display: flex;
+  padding-left: 17px;
+  align-items: center;
+  gap: 35px;
+}
+
+.navbtn > button {
+  cursor: pointer;
+  width: 44px;
+  font-size: 14px;
+  font-weight: 500;
+  color: #fff;
+  background: transparent;
+}
+.navbtn > button:last-child {
+  cursor: pointer;
+  padding: 10px 20px 10px 17px;
+  width: 112px;
+  color: #fff;
+  background: transparent;
+  border-radius: 96px;
+  border: 1px solid #fff;
+  font-size: 16px;
+  font-weight: 500;
 }
 
 .container {
@@ -73,7 +145,6 @@ body {
   text-align: center;
   cursor: pointer;
   font-size: 16px;
-  border: none;
   font-weight: 400;
   background: transparent;
 }
@@ -83,7 +154,6 @@ body {
   height: 44px;
   padding: 13px 30px;
   gap: 10px;
-  border: none;
   border-radius: 5px;
   background: #2970ff;
   transition: all 3s;
