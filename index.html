@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>QuickBill</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-<body style="background-color: green;">
+
+<body>
     <header>
-        <nav> Navbar test </nav>
+        <nav class="navbar">
+            <a href="#">QuickBill</a>
+            <ul>
+                <li>Platform</li>
+                <li>Use Cases</li>
+                <li>Why Deel</li>
+                <li>Pricing</li>
+                <li>Resources</li>
+            </ul>
+            <div class="navbtn">
+                <button>Login</button>
+                <button>Request A Demo</button>
+            </div>
+        </nav>
     </header>
-    <h1>Hello World!</h1>
-    <script src="/testimonial.js"></script>
-</body>
+    <h1 class="h1">Hello World!</h1>
+
+    <section class="container">
+        <h1>Upload New File</h1>
+        <h2>Please, upload an image you want to attach to your proposal.</h2>
+        <div class="sub">
+            <h3>Valid MIME types - image/png</h3>
+            <h3>Max image size - 512kb</h3>
+            <h3>Max number of files - 20</h3>
+            <p>If you have any problems with your upload, try using a smaller file.</p>
+            <div class="btn">
+                <div class="cancel">
+                    <button>cancel</button>
+                </div>
+                <button>Select File</button>
+            </div>
+    </section>
     <footer>
         <div>
             <p class="copyright">© 2023 Dlt Africa | All rights reserved.</p>
         </div>
     </footer>
+    <script src="/testimonial.js"></script>
+</body>
+
 </html>
