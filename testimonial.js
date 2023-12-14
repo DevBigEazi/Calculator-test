@@ -1,5 +1,5 @@
 const handleTestimonial = (e) => {
-    e.preventDefault();
-    const data = new Date 
+    const date = new Date()
+    console.log(date) 
 }
 handleTestimonial()
